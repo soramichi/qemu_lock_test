@@ -1,4 +1,4 @@
 mutex:
-	gcc memory_access.c -pthread -O0 -DMUTEX -o memory_access
+	gcc qemu_lock_test.c -pthread -O0 -DMUTEX -o qemu_lock_test
 spin:
-	gcc memory_access.c -pthread -O0 -o memory_access
+	gcc qemu_lock_test.c -pthread -O0 -o qemu_lock_test
