@@ -1,3 +1,4 @@
+```
 $ make spin
 $ ./qemu_lock_test
 ...
@@ -15,3 +16,4 @@ $ qemu-x86_64 ./qemu_lock_test
 ...
 ...
 (last forever...)
+```
